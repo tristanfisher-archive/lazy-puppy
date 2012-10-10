@@ -1,0 +1,9 @@
+# <%= @name %>
+
+<%- if @sudo_defaults_list -%>
+<%= sudo_defaults_list.join("\n") %>
+<%- end -%>
+
+<%- if @sudo_rule_list-%>
+<%= sudo_rule_list.reverse.join("\n") %>
+<%- end -%>

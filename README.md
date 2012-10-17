@@ -11,8 +11,9 @@ You will need to have the puppet RPM source in place to work with their packages
 Debian:
 You're probably golden after including the non-free apt repos.  Debian is pretty neat about not staying 5 years behind the curve in package management.
 
-  aptitude install git puppet
-  #git clone this repo
+    aptitude install git puppet
+
+    git clone git://github.com/tristanfisher/lazy-puppy.git
 
 Dang, Debian, you so cool.
 
